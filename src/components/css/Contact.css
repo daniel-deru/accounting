@@ -1,0 +1,46 @@
+form label {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+form div {
+    width: 30%;
+    margin: 0 auto;
+}
+
+form div:first-child label {
+    margin-top: 0px;
+}
+
+form input, form textarea {
+    color: var(--blue);
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    padding-left: 10px;
+    border: 2px solid hsl(216, 100%, 58%);
+}
+
+
+@media (max-width: 850px) {
+  form div {
+      width: 50%;
+  }
+
+  form {
+      margin-top: 50px;
+  }
+
+  form label {
+      color: hsl(216, 100%, 58%);
+  }
+}
+
